@@ -9,7 +9,7 @@ import React, { useCallback, useEffect, useState } from "react";
 const Home = () => {
   return (
     <div className="min-h-screen flex items-center pt-4 pb-8 justify-between flex-col md:gap-10">
-      <Image src={"/assets/banner.gif"} alt="'banner" width={1000} height={200} className="md:block hidden" />
+      <Image src={"/assets/banner.gif"} alt="'banner" width={1000} height={200} className="md:block hidden" unoptimized />
       <Counter />
     </div>
   );

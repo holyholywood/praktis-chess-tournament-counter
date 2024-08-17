@@ -30,7 +30,7 @@ const Timer = ({ onClick, startTime = 10, active, side, isResetting, playerName 
   }, [isResetting]);
   return (
     <div className="w-full space-y-2">
-      <h2 className={`font-semibold text-2xl text-center ${side === "white" ? "rotate-180" : "hidden md:block"}`}>
+      <h2 className={`font-semibold text-2xl text-center ${side === "white" ? "rotate-180" : "hidden md:block"}  md:hidden`}>
         {playerName ? playerName : <span className="capitalize">{side} Player</span>}
       </h2>
       <div
